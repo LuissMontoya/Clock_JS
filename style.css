@@ -1,0 +1,30 @@
+body{
+    background-color:rgba(52, 73, 94,.7);
+}
+
+.container{
+    height: 10vh;
+    width: 70vw;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.clock-container{
+    color: rgba(189, 195, 199,1.0);
+    width: 100%;
+    background-color: rgba(52, 73, 94,1.0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem auto;
+    border-radius: 5px;
+    transition: transform .7s;
+    cursor: pointer;
+    font-size: 35px;
+}
+
+.clock-container:hover{
+    transform: scale(1.3);
+}
